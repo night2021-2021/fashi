@@ -34,6 +34,35 @@ body {
   border-radius: 5px;
 }
 
+.image-feature {
+  height: 100%;
+}
+
+.image-feature .title {
+  min-height: 2.8em;
+}
+
+.image-feature p {
+  min-height: 7em;
+}
+
+.image-feature .image-feature-media {
+  margin: 0;
+}
+
+.image-feature .image-feature-media img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-feature .image-feature-media img {
+    height: 260px;
+  }
+}
+
 
 .publication-title {
 }
